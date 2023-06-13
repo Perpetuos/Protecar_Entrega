@@ -1,0 +1,59 @@
+.img_container {
+    position: relative;
+    width: max-content;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+    pointer-events: none;
+    text-transform: uppercase;
+}
+
+.info#nome {
+    top: 207px;
+    left: 135px;
+}
+
+.info#veiculo {
+    top: 240px;
+    left: 203px;
+}
+
+.info#placa {
+    top: 273px;
+    left: 180px;
+}
+
+.info#oficina {
+    top: 306px;
+    left: 200px;
+}
+
+.info#prazo {
+    top: 339px;
+    left: 332px;
+}
+
+.container-button {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+button {
+    padding: 5px;
+    background-color: rgb(46, 163, 81);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+#buttonContainer {
+    margin-top: 30px;
+}
